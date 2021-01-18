@@ -48,8 +48,10 @@ public class PracticeWindowBuilder {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLocationRelativeTo(null);
 		frame.setResizable(false);
 		frame.getContentPane().setLayout(null);
+		frame.setTitle("Login Page");
 		
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.setFont(new Font("¸¼Àº °íµñ", Font.PLAIN, 16));
