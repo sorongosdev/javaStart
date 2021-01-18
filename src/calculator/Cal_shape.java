@@ -27,7 +27,7 @@ public class Cal_shape extends JFrame {
 		inputSpace.setEditable(false);
 		inputSpace.setBackground(Color.WHITE);
 		inputSpace.setHorizontalAlignment(JTextField.RIGHT);
-		inputSpace.setFont(new Font("Arial",Font.BOLD,50));
+		inputSpace.setFont(new Font("Arial",Font.BOLD,100));
 		inputSpace.setBounds(8,10,270,70);
 		
 		JPanel buttonPanel = new JPanel();
